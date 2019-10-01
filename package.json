@@ -1,26 +1,18 @@
 {
-  "name": "passport-google-oauth",
-  "version": "2.0.0",
-  "description": "Google (OAuth) authentication strategies for Passport.",
+  "name": "passport-moneybutton",
+  "version": "0.0.1",
+  "description": "Moneybutton (OAuth) authentication strategies for Passport.",
   "keywords": [
     "passport",
-    "google",
+    "moneybutton",
     "auth",
     "authn",
     "authentication",
     "identity"
   ],
-  "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-google-oauth.git"
-  },
-  "bugs": {
-    "url": "http://github.com/jaredhanson/passport-google-oauth/issues"
+    "url": "git://github.com/twetch-inc/passport-moneybutton.git"
   },
   "license": "MIT",
   "licenses": [
@@ -31,13 +23,14 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "passport-google-oauth1": "1.x.x",
-    "passport-google-oauth20": "2.x.x"
+    "axios": "0.19.0",
+    "passport-oauth2": "1.5.0"
   },
   "devDependencies": {
+    "chai": "2.x.x",
     "make-node": "0.4.6",
     "mocha": "2.x.x",
-    "chai": "2.x.x"
+    "prettier": "1.18.2"
   },
   "engines": {
     "node": ">= 0.4.0"
