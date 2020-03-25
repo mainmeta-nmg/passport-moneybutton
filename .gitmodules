@@ -1,0 +1,6 @@
+[submodule "passport-moneybutton"]
+	path = passport-moneybutton
+	url = git@github.com:twetch-inc/passport-moneybutton.git
+[submodule "passport-oauth2"]
+	path = passport-oauth2
+	url = git@github.com:twetch-inc/passport-oauth2.git
